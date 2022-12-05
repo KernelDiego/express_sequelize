@@ -1,0 +1,24 @@
+{
+  "name": "express_sequelize",
+  "version": "1.0.0",
+  "description": "Practice sequelize together with Express",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "KernelDiego",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "morgan": "^1.10.0",
+    "pg": "^8.7.3",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.18.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "sequelize-cli": "^6.4.1"
+  }
+}
